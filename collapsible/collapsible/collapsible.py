@@ -1,5 +1,3 @@
-"""TO-DO: Write a description of what this XBlock is."""
-
 import pkg_resources
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
@@ -21,7 +19,6 @@ class CollapsibleXBlock(XBlock, StudioEditableXBlockMixin):
         data = pkg_resources.resource_string(__name__, path)
         return data.decode("utf8")
 
-    # TO-DO: change this view to display your data your own way.
     def student_view(self, context=None):
         loader = ResourceLoader('collapsible')
         context = dict(

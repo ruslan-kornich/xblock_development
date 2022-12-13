@@ -1,6 +1,5 @@
 """Setup for collapsible XBlock."""
 
-
 import os
 
 from setuptools import setup
@@ -25,8 +24,8 @@ def package_data(pkg, roots):
 setup(
     name='collapsible-xblock',
     version='0.1',
-    description='collapsible XBlock',   # TODO: write a better description.
-    license='UNKNOWN',          # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
+    description='collapsible XBlock',  # TODO: write a better description.
+    license='UNKNOWN',  # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
     packages=[
         'collapsible',
     ],
